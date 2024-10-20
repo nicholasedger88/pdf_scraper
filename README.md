@@ -1,7 +1,7 @@
 # PDF Scraper Web App
 
 ### Overview
-This is a simple web application built with **Flask** that allows users to scrape PDF documents from a given URL. The app extracts the first specified number of words from the document (skipping fund name headers and dates) and presents both the raw extracted text and a cleaned version.
+This is a simple web application built with **Flask** that allows users to scrape PDF documents from a given URL. The app extracts the first specified number of words from the document (skipping any content that might typically be presented beforehand; in this case, header text that is capitalised) and presents both the raw extracted text and a cleaned version.
 
 ### Features
 - Users can specify a URL for a PDF file to scrape.
