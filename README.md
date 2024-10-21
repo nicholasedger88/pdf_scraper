@@ -35,13 +35,11 @@ This is a simple web application built with **Flask** that allows users to scrap
     ````arduino
     http://127.0.0.1:5000/
 
-
-### API Integration for External Tools
+## API Integration for External Tools
 
 The web application exposes an API endpoint at /api/scrape that can be called by external tools like Alteryx to scrape PDFs and extract the desired number of words. The API supports both GET and POST requests.
 
 ## API Usage
 GET Request: You can pass the url and word_limit as query parameters. Here is an example request:
 
-    ```ruby
     http://yourdomain.com/api/scrape?url=https://example.com/somefile.pdf&word_limit=100
